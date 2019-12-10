@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body class="masthead">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Coffee Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Why Us?</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Product
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Americano</a>
+                        <a class="dropdown-item" href="#">Latte</a>
+                        <a class="dropdown-item" href="#">Cappuccino</a>
+                        <a class="dropdown-item" href="#">Pumpkin spice latte <span
+                                class="badge badge-dark">seasonal</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Promotion!</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Buy Now!</button>
+            </form>
+        </div>
+    </nav>
+    <!-- introduction -->
+    <div id="container-main">
+        <div class="container d-flex p-5 bg-white">
+            <img class="shadow-lg" style="width: 300px;"
+                src="https://d1alt1wkdk73qo.cloudfront.net/images/guide/05ddb8fbb5bd7b302fdc48b5cced7512/640x478_ac.jpg"
+                alt="picture-of-latte">
+            <div class="flex-grow-1 mx-5">
+                <h1>A Coffee a day, keeps the doctor away</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit, eligendi quas nulla itaque
+                    consectetur obcaecati ab facere suscipit! Iste.</p>
+                <a class="d-block text-right" href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product grid -->
+    <div class="container mb-5" id="product-container">
+        <div class="row my-3">
+            <div class="card m-2" style="width: 22rem;">
+                <img class="card-img-top p-2"
+                    src="https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Latte-Macchiato.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 22rem;">
+                <img class="card-img-top p-2"
+                    src="https://www.torani.com/sites/default/files/styles/torani_syrup_recipe_detail/public/recipes/illustration/Cappuccino%20with%20spice%20and%20beans_0.jpg?itok=1_nRwbzV"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 22rem;">
+                <img class="card-img-top p-2"
+                    src="https://globalassets.starbucks.com/assets/02e313dd98204b7380730e96f8d50c38.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- seasonal offers
+    <div class="w-100 my-5 bg-light d-block" id="seasonal-offers">
+        <div class="card text-center">
+            <div class="card-header">
+                Seasonal offer!
+            </div>
+            <div class="card-body text-left px-5">
+                <h5 class="card-title">Pumpkin spice latte now available!</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                15 days to go
+            </div>
+        </div>
+    </div> -->
+
+
+    <footer class="navbar navbar-light bg-light d-block">
+        <span class="d-block text-center">All rights reserved.</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
